@@ -1,0 +1,14 @@
+<div id="image-box">
+    <h1>{{printTitle()}}</h1>
+
+    <ul>
+        <li *ngFor="let rabbi of rabbis">
+            {{rabbi.name}} from {{rabbi.location}}
+        </li>
+    </ul>
+
+    <figure>
+        <img src="https://gttfilestorage.blob.core.windows.net/public-content/images/rabi_shimon_bar_yohai_22[1].jpg" />
+        <app-title></app-title>
+    </figure>
+</div>
